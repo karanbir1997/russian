@@ -28,8 +28,8 @@ namespace russian
             btnload.Enabled = false;
             pictureBox2.Visible = true;
             main_objet.loaded = 1;//this code changes the vale of load to 1
-            pictureBox2.Image = Image.FromFile(@"C:\Users\karanbir singh\Desktop\russian\load.gif");//this code shows gif
-            System.Media.SoundPlayer player = new System.Media.SoundPlayer(@"C:\Users\karanbir singh\Desktop\russian\load.wav");//this code play sound
+            pictureBox2.Image = Image.FromFile(@"C:\Users\karanbir singh\Desktop\russian\Res\load.gif");//this code shows gif
+            System.Media.SoundPlayer player = new System.Media.SoundPlayer(@"C:\Users\karanbir singh\Desktop\russian\Res\load.wav");//this code play sound
             
             
         }
@@ -38,8 +38,8 @@ namespace russian
         {
             {
                 pictureBox2.Visible = true;
-                pictureBox2.Image = Image.FromFile(@"C:\Users\karanbir singh\Desktop\russian\shoot.gif");//this code is for gif
-                System.Media.SoundPlayer player = new System.Media.SoundPlayer(@"C:\Users\karanbir singh\Desktop\russian\shoot.wav");//this code is for the sound
+                pictureBox2.Image = Image.FromFile(@"C:\Users\karanbir singh\Desktop\russian\Res\shoot.gif");//this code is for gif
+                System.Media.SoundPlayer player = new System.Media.SoundPlayer(@"C:\Users\karanbir singh\Desktop\russian\Res\shoot.wav");//this code is for the sound
                 player.Play();
 
                 do
@@ -105,8 +105,8 @@ namespace russian
             btnspin.Enabled = false;
             btnshoot.Enabled = true;
             pictureBox2.Visible = true;
-            pictureBox2.Image = Image.FromFile(@"C:\Users\karanbir singh\Desktop\russian\spin.gif");
-            System.Media.SoundPlayer player = new System.Media.SoundPlayer(@"C:\Users\karanbir singh\Desktop\russian\spin.wav");
+            pictureBox2.Image = Image.FromFile(@"C:\Users\karanbir singh\Desktop\russian\Res\spin.gif");
+            System.Media.SoundPlayer player = new System.Media.SoundPlayer(@"C:\Users\karanbir singh\Desktop\russian\Res\spin.wav");
             main_objet.Spinner = main_objet.spiner();
 
             
